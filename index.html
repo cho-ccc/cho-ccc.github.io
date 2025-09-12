@@ -1,10 +1,123 @@
 <!DOCTYPE html>
-<html>
-  <!-- <태그이름></태그이름> -->
-  <head>
-    <title>조재청의 홈페이지</title>
-  </head>
-  <body>
-    <h1>어서와! HTML은 처음이지!</h1>
-  </body>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>나의 소개 페이지</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+      color: #333;
+    }
+
+    header {
+      background-color: #4a90e2;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+
+    section {
+      background: white;
+      border-radius: 15px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    section h2 {
+      color: #4a90e2;
+      margin-top: 0;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #4a90e2;
+      color: white;
+      margin-top: 2rem;
+    }
+
+    /* 반응형 */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+      main {
+        margin: 1rem;
+        padding: 0.5rem;
+      }
+      section {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>안녕하세요! 저는 코딩크루 초등학교 6학년 🎉</h1>
+    <p>즐겁게 배우고, 맛있게 먹고, 멋진 꿈을 키워가는 중이에요!</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>학교와 공부</h2>
+      <p>저는 <strong>코딩크루 초등학교</strong>에 다니고 있어요.<br>
+      우리 학교에서는 <strong>엔트리, 파이썬, HTML, C, Java</strong>를 배우는데,<br>
+      그중에서 제가 가장 좋아하는 과목은 <strong style="color:tomato;">Java</strong>랍니다! ☕✨<br>
+      미래에는 멋진 개발자가 되는 것이 꿈이에요.</p>
+    </section>
+
+    <section>
+      <h2>좋아하는 음식</h2>
+      <p>저는 음식을 정말 좋아해요 😋</p>
+      <ul>
+        <li>돈가스</li>
+        <li>냉모밀</li>
+        <li>초밥</li>
+      </ul>
+      <p>그리고 제가 추천하고 싶은 음식은 <strong>라멘, 치즈피자, 떡볶이</strong>예요! 🍜🍕🌶️</p>
+    </section>
+
+    <section>
+      <h2>취미</h2>
+      <p>저는 책을 읽는 것을 좋아해요. 📚<br>
+      또 가끔 유튜브를 보면서 재미있는 영상도 즐겨 본답니다. ▶️<br>
+      책을 읽으면 새로운 세상을 알 수 있고, 유튜브는 다양한 아이디어를 얻을 수 있어요!</p>
+    </section>
+
+    <section>
+      <h2>나의 다짐</h2>
+      <p>앞으로도 즐겁게 공부하면서 멋진 사람이 되고 싶어요.<br>
+      항상 밝은 마음으로 도전하고, 더 좋은 내일을 만들어가고 싶습니다. 🌟</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 나의 소개 페이지 | 코딩크루 학생</p>
+  </footer>
+</body>
 </html>
