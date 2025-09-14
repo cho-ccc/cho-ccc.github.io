@@ -5,6 +5,7 @@ friends = ["래현", "민호", "헌서"]
 # append로 새로운 친구 '지아'를 추가해요.
 friends.append("재청")
 
+
 print("우리반 친구는 총", len(friends), "명 입니다.") # len으로 총 몇 명인지 확인
 
 # for문으로 친구들 이름을 한 명씩 불러줘요.
